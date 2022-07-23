@@ -32,6 +32,7 @@ class HomeFragment : Fragment() {
         println("here too")
         buttonNavigateFeatureA.setOnClickListener {
             featureARouteContractImpl.show("abc", findNavController())
+            //hello
         }
         buttonNavigateFeatureB.setOnClickListener {
             featureBRouteContractImpl.show("def", findNavController())
